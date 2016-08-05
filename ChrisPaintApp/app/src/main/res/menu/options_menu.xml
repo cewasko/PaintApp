@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?> 
+	<menu xmlns:android="http://schemas.android.com/apk/res/android">
+		<item android:id="@+id/color"
+			android:title="@string/change_color">
+			<menu xmlns:android="http://schemas.android.com/apk/res/android">
+		<item android:id="@+id/black"
+			android:title="@string/color_black"/>
+		<item android:id="@+id/blue"
+			android:title="@string/color_blue"/>
+		<item android:id="@+id/cyan"
+			android:title="@string/color_cyan"/>
+		<item android:id="@+id/dkgray"
+			android:title="@string/color_dkgray"/>
+		<item android:id="@+id/gray"
+			android:title="@string/color_gray"/>
+		<item android:id="@+id/green"
+			android:title="@string/color_green"/>
+		<item android:id="@+id/ltgray"
+			android:title="@string/color_ltgray"/>
+		<item android:id="@+id/magenta"
+			android:title="@string/color_magenta"/>
+		<item android:id="@+id/red"
+			android:title="@string/color_red"/>
+		<item android:id="@+id/yellow"
+			android:title="@string/color_yellow"/>
+		<item android:id="@+id/white"
+			android:title="@string/color_white"/>
+	</menu>
+	</item>
+	<item android:id="@+id/brush_size"
+			android:title="@string/change_size">
+			<menu xmlns:android="http://schemas.android.com/apk/res/android">
+			<item android:id="@+id/size_big"
+			android:title="@string/size_big"/>
+			<item android:id="@+id/size_med"
+			android:title="@string/size_med"/>
+			<item android:id="@+id/size_small"
+			android:title="@string/size_small"/>
+			</menu>
+	</item>   
+	</menu>
